@@ -8,6 +8,8 @@ $(error "Please set PSL1GHT in your environment. export PSL1GHT=<path>")
 endif
 
 TC_ADD		:=	`date +%d%H%M`
+ICON0		:=	$(CURDIR)/ICON0.PNG
+SFOXML		:=	$(CURDIR)/sfo.xml
 
 SCETOOL_FLAGS	?=	--self-app-version=0001000000000000  --sce-type=SELF --compress-data=TRUE --self-add-shdrs=TRUE --skip-sections=FALSE --key-revision=1 \
 					--self-auth-id=1010000001000003 --self-vendor-id=01000002 --self-fw-version=0003004000000000 \
