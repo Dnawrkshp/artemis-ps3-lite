@@ -4,6 +4,8 @@ An Open Source Playstation 3 Hacking System created under the Project Artemis in
 
 [Releases](https://github.com/Dnawrkshp/artemis-ps3-lite/releases/)
 -----------
+The lite version of [Artemis PS3](https://github.com/Dnawrkshp/ArtemisPS3) is designed to be firmware independant. This is achievable by removing payload injection and PRX loading. Since most modern custom firmware's now have both built in, there is no reason for Artemis to do it. As a result, Artemis lite is significantly more stable.
+
 
 How To Use
 ----------
